@@ -1,3 +1,45 @@
-h1{
-background-color: aqua;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+}
+/* For common Use */
+.container-size{
+max-width: 1360px;
+margin: 0 auto;
+}
+
+
+/* Header Start */
+header{
+margin-top: 16px;
+}
+.nav-parent{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.link-parent{
+display: flex;
+gap: 32px;
+list-style: none;
+}
+
+.link-parent a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 500;
+color: #000000;
+}
+
+.my-btn{
+border-radius: 4px;
+font-size: 16px;
+font-weight: 600;
+padding: 15px 30px;
+background-color: #469165;
+color: #FFFFFF;
+border: none;
 }
