@@ -19,6 +19,7 @@ margin-top: 16px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+margin-bottom: 16px;
 }
 
 .link-parent{
@@ -38,8 +39,85 @@ color: #000000;
 border-radius: 4px;
 font-size: 16px;
 font-weight: 600;
-padding: 15px 30px;
+padding: 12px 16px;
 background-color: #469165;
 color: #FFFFFF;
 border: none;
+}
+/* Nav End */
+
+#hero{
+height: 674px;
+background-image: url("../assets/hero-bg.png");
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+text-align: center;
+}
+
+.hero-content{
+text-align: center;
+padding: 115px 120px 180px;
+}
+.hero-content .circle{
+   background-color: #FFFFFF;
+   border-radius: 1000px;
+   padding: 8px 12px;
+   font-size: 16px;
+   font-weight: 500;
+   color: #469165;
+   margin-bottom: 16px;
+}
+
+.hero-content h1{
+font-weight: 700px;
+font-size: 72px;
+color: #FFFFFF;
+margin-top: 20px;
+}
+.hero-content h1 span{
+color: #30B868;
+}
+
+.hero-content p{
+font-size: 18px;
+font-weight: 400px;
+line-height: 30px;
+color: #FFFFFF;
+text-align: center;
+margin-top: 16px;
+}
+
+.hero-content .my-buttons{
+display: flex;
+justify-content: center;
+gap: 16px;
+margin-top: 32px;
+}
+.hero-content .my-buttons .btn-1{
+border-radius: 4px;
+font-size: 16px;
+font-weight: 600;
+padding: 12px 16px;
+background-color: #469165;
+color: #FFFFFF;
+border: none;
+display: inline-flex;
+align-items: center;
+gap: 10px;
+}
+.hero-content .my-buttons .btn-2{
+border-radius: 4px;
+font-size: 16px;
+font-weight: 600;
+padding: 12px 16px;
+background-color: #ffffff00;
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
+display: inline-flex;
+align-items: center;
+gap: 10px;
 }
