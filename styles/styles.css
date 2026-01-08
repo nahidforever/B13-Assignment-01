@@ -1,123 +1,183 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: "Inter", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 /* For common Use */
-.container-size{
-max-width: 1360px;
-margin: 0 auto;
+.container-size {
+  max-width: 1360px;
+  margin: 0 auto;
 }
-
 
 /* Header Start */
-header{
-margin-top: 16px;
+header {
+  margin-top: 16px;
 }
-.nav-parent{
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 16px;
-}
-
-.link-parent{
-display: flex;
-gap: 32px;
-list-style: none;
+.nav-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
 }
 
-.link-parent a{
-text-decoration: none;
-font-size: 16px;
-font-weight: 500;
-color: #000000;
+.link-parent {
+  display: flex;
+  gap: 32px;
+  list-style: none;
 }
 
-.my-btn{
-border-radius: 4px;
-font-size: 16px;
-font-weight: 600;
-padding: 12px 16px;
-background-color: #469165;
-color: #FFFFFF;
-border: none;
+.link-parent a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.my-btn {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  background-color: #469165;
+  color: #ffffff;
+  border: none;
 }
 /* Nav End */
 
-#hero{
-height: 674px;
-background-image: url("../assets/hero-bg.png");
-background-size: cover;
-background-position: center;
-display: flex;
-justify-content: center;
-text-align: center;
-align-items: center;
-text-align: center;
+#hero {
+  height: 674px;
+  background-image: url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-align: center;
 }
 
-.hero-content{
-text-align: center;
-padding: 115px 120px 180px;
+.hero-content {
+  text-align: center;
+  padding: 115px 120px 180px;
 }
-.hero-content .circle{
-   background-color: #FFFFFF;
-   border-radius: 1000px;
-   padding: 8px 12px;
-   font-size: 16px;
-   font-weight: 500;
-   color: #469165;
-   margin-bottom: 16px;
-}
-
-.hero-content h1{
-font-weight: 700px;
-font-size: 72px;
-color: #FFFFFF;
-margin-top: 20px;
-}
-.hero-content h1 span{
-color: #30B868;
+.hero-content .circle {
+  background-color: #ffffff;
+  border-radius: 1000px;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  margin-bottom: 16px;
 }
 
-.hero-content p{
-font-size: 18px;
-font-weight: 400px;
-line-height: 30px;
-color: #FFFFFF;
-text-align: center;
-margin-top: 16px;
+.hero-content h1 {
+  font-weight: 700px;
+  font-size: 72px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.hero-content h1 span {
+  color: #30b868;
 }
 
-.hero-content .my-buttons{
-display: flex;
-justify-content: center;
-gap: 16px;
-margin-top: 32px;
+.hero-content p {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
 }
-.hero-content .my-buttons .btn-1{
-border-radius: 4px;
-font-size: 16px;
-font-weight: 600;
-padding: 12px 16px;
-background-color: #469165;
-color: #FFFFFF;
-border: none;
-display: inline-flex;
-align-items: center;
-gap: 10px;
+
+.hero-content .my-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
 }
-.hero-content .my-buttons .btn-2{
-border-radius: 4px;
-font-size: 16px;
-font-weight: 600;
-padding: 12px 16px;
-background-color: #ffffff00;
-border: 1px solid #FFFFFF;
-color: #FFFFFF;
-display: inline-flex;
-align-items: center;
-gap: 10px;
+.hero-content .my-buttons .btn-1 {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  background-color: #469165;
+  color: #ffffff;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-content .my-buttons .btn-2 {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  background-color: #ffffff00;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Notes strat */
+
+#notes {
+  margin-top: 45px;
+}
+#notes .notes-container .notes-heading {
+  text-align: center;
+}
+#notes .notes-container .notes-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+#notes .notes-container .notes-heading p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+#notes .notes-container .notes-box {
+  display: flex;
+  gap: 25px;
+}
+
+.notes-box .notes-card {
+  padding: 24px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  /* background: rgba(255, 255, 255, 1); */
+  max-width: 322px;
+  margin-top: 44px;
+  text-align: center;
+}
+.notes-card .icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #F95555;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.notes-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.notes-card p {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 20px;
+  color: #627382;
 }
