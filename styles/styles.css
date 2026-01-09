@@ -135,7 +135,7 @@ background-color: brown;
 .hero-content .my-buttons .btn-2:hover{
  background-color: brown;
 }
-/* Notes strat */
+/* Notes start */
 
 #notes {
   margin-top: 45px;
@@ -165,7 +165,6 @@ background-color: brown;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
-  /* background: rgba(255, 255, 255, 1); */
   max-width: 322px;
   margin-top: 44px;
   text-align: center;
@@ -243,6 +242,7 @@ background-color: brown;
 }
 
 /* 2nd-Brain-Done */
+
 .early-section {
   margin-top: 120px;
 }
@@ -278,4 +278,62 @@ background-color: brown;
   color: #627382;
   margin-top: 16px;
   margin-bottom: 80px;
+}
+
+/* Early Section End */
+
+.footer{
+margin-top: 120px;
+background-color: #001931;
+}
+
+
+.footer .footer-box{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding-top: 120px;
+padding-bottom: 80px;
+}
+
+.footer-social {
+margin-right: 80px;
+}
+
+.footer-social p{
+font-size: 20px;
+font-weight: 500;
+color: #FFFFFF;
+}
+
+.social-icons{
+display: flex;
+gap: 16px;
+}
+.social-icons a{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+background-color: #FFFFFF;
+color: #000000;
+text-decoration: none;
+border-radius: 50%;
+margin-top: 16px;
+gap: 16px;
+} 
+
+.hr-copyright{
+padding-bottom: 30px;
+}
+
+.hr-copyright hr{
+border: none;
+border-top: 1px solid rgba(229, 231, 235, 0.2);
+}
+
+.hr-copyright p{
+margin-top: 30px;
+color: #FAFAFA;
+font-size: 16px;
+text-align: center;
 }
