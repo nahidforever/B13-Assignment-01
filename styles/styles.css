@@ -225,3 +225,39 @@ margin-top: 16px;
 }
 
 /* 2nd-Brain-Done */
+.early-section{
+margin-top: 120px;
+}
+.early-section .early-section-box{
+background-color: #F7F6F2;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.early-section .early-section-box .early-section-heading{
+margin-top: 80px;
+}
+.early-section .early-section-box .early-section-heading h2{
+font-size: 40px;
+font-weight: 700;
+color: #001931;
+margin-bottom: 16px;
+}
+.early-section-heading .early-section-para{
+font-size: 16px;
+color: #627382;
+margin-bottom: 16px;
+line-height: 24px;
+}
+.early-section-btn .my-btn{
+ display: inline-flex;
+ gap: 10px;
+}
+.early-section-para2{
+font-size: 16px;
+color: #627382;
+margin-top: 16px;
+margin-bottom: 80px;
+}
