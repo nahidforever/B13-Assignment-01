@@ -42,7 +42,12 @@ header {
   background-color: #469165;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
+.my-btn:hover{
+background-color: brown;
+}
+
 /* Nav End */
 
 #hero {
@@ -108,6 +113,7 @@ header {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 .hero-content .my-buttons .btn-2 {
   border-radius: 4px;
@@ -120,8 +126,15 @@ header {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
+.hero-content .my-buttons .btn-1:hover{
+ background-color: brown;
+}
+.hero-content .my-buttons .btn-2:hover{
+ background-color: brown;
+}
 /* Notes strat */
 
 #notes {
