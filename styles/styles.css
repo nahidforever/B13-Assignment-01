@@ -50,11 +50,7 @@ header {
   background-image: url("../assets/hero-bg.png");
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  text-align: center;
+  background-repeat: no-repeat;
 }
 
 .hero-content {
@@ -72,7 +68,7 @@ header {
 }
 
 .hero-content h1 {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 72px;
   color: #ffffff;
   margin-top: 20px;
@@ -83,7 +79,7 @@ header {
 
 .hero-content p {
   font-size: 18px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 30px;
   color: #ffffff;
   text-align: center;
@@ -148,7 +144,7 @@ header {
 
 .notes-box .notes-card {
   padding: 24px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
   /* background: rgba(255, 255, 255, 1); */
@@ -159,7 +155,7 @@ header {
 .notes-card .icon-circle {
   width: 60px;
   height: 60px;
-  background-color: #F95555;
+  background-color: #f95555;
   border-radius: 50%;
   margin-bottom: 30px;
   margin: 0 auto;
@@ -181,3 +177,51 @@ header {
   line-height: 20px;
   color: #627382;
 }
+
+/* Notes End */
+
+.brain-section {
+  padding-top: 120px;
+}
+
+.brain-section .brain-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.brain-section .brain-container .brain-img {
+  height: 600px;
+  width: 600px;
+}
+
+.brain-section .brain-container .brain-content .solution-msg {
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  margin-bottom: 16px;
+}
+
+.brain-section .brain-container .brain-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.brain-section .brain-container .brain-content p{
+font-size: 16px;
+color: #627382;
+margin-bottom: 40px;
+line-height: 20px;
+}
+.list-items-brain{
+list-style: none;
+}
+
+.list-items-brain li{
+display: flex;
+align-items: flex-start;
+gap: 6px;
+margin-top: 16px;
+}
+
+/* 2nd-Brain-Done */
