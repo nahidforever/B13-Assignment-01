@@ -311,7 +311,9 @@ display: flex;
 gap: 16px;
 }
 .social-icons a{
-display: inline-flex;
+height: 20px;
+width: 20px;
+display: flex;
 justify-content: center;
 align-items: center;
 background-color: #FFFFFF;
